@@ -1,1 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <img src="Images.2/Logo png.png" alt="Logo">
+        <nav>
+            <a href="#about">About Me</a>
+            <a href="#featured">Featured Works</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        <div class="auth-buttons">
+            <button>Sign In</button>
+            <button>Register</button>
+        </div>
+    </header>
 
+    <!-- Hero Section -->
+    <section id="hero">
+        <h1>Welcome to My Portfolio</h1>
+        <p>Showcasing my creative projects and designs</p>
+        <div class="buttons">
+            <a href="#about" class="btn">Learn More</a>
+            <a href="#contact" class="btn">Get In Touch</a>
+        </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <div class="about-content">
+            <img src="Images.2/😁.jpg" alt="Profile Picture">
+            <p>Hello! I’m a passionate designer and developer. I love creating visually appealing and functional digital experiences. Check out my featured works below!</p>
+        </div>
+    </section>
+
+    <!-- Featured Works Section -->
+    <section id="featured">
+        <h2>Featured Works</h2>
+        <div class="work-gallery">
+            <div class="work-item">
+                <img src="work1.jpg" alt="Work 1">
+                <h3>Project Title 1</h3>
+                <p>Short description of the project.</p>
+            </div>
+            <div class="work-item">
+                <img src="work2.jpg" alt="Work 2">
+                <h3>Project Title 2</h3>
+                <p>Short description of the project.</p>
+            </div>
+            <div class="work-item">
+                <img src="work3.jpg" alt="Work 3">
+                <h3>Project Title 3</h3>
+                <p>Short description of the project.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form action="#">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+            
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 My Portfolio</p>
+        <div class="social-icons">
+            <a href="#">Facebook</a>
+            <a href="#">Twitter</a>
+            <a href="#">LinkedIn</a>
+        </div>
+    </footer>
+</body>
+</html>
+
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="mobile.css">
